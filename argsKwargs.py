@@ -1,10 +1,4 @@
-# *args - arguments
-def add(*args):
-    total = 0
-    for i in args:
-        total+=i
-    print(total)
-add(4,4,4,3,4,5,6,7,7)
+
 
 ######## **kwargs - keyword arguments
 def pets(owner, **kwargs):
