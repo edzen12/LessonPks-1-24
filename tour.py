@@ -13,7 +13,7 @@ class Tour:
     @property
     def price(self):
         return self.__price
-    
+
     @price.setter
     def price(self, value):
         if value>=5000:
